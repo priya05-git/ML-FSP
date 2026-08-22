@@ -47,15 +47,25 @@ Optional Graphviz support is demonstrated in the decision-tree notebooks.
 
 flowchart 
 	A[Collect or load dataset] --> B[Explore and visualize data]
+
 	B --> C[Clean and preprocess data]
+
 	C --> D[Select features and target]
+
 	D --> E[Split data into training and testing sets]
+
 	E --> F[Train machine learning model]
+
 	F --> G[Evaluate model performance]
+
 	G --> H{Performance acceptable?}
+
 	H -- No --> I[Tune features or model parameters]
+
 	I --> F
+
 	H -- Yes --> J[Make predictions]
+  
 	J --> K[Report results]
 
 
