@@ -1,4 +1,4 @@
-# FSP - Machine Learning Notebooks
+# *FSP - Machine Learning Notebooks*
 
 ## Overview
 
